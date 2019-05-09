@@ -1,6 +1,6 @@
 {
   "name": "jest-esm-transformer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This is a jest utility that transforms esm files into cjs, so that they can be parsed by Jest.",
   "main": "src/index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ActuallyACat/jest-esm-transformer/issues"
   },
-  "homepage": "https://github.com/ActuallyACat/jest-esm-transformer#readme"
+  "homepage": "https://github.com/ActuallyACat/jest-esm-transformer#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4"
+  }
 }
