@@ -11,3 +11,6 @@ transform: {
    '.js': 'jest-esm-transformer',
 }
 ```
+
+## Credit
+All the credit goes to https://github.com/onigoetz 
