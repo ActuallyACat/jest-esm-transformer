@@ -8,6 +8,8 @@ module.exports = {
       plugins: [require.resolve("@babel/plugin-transform-modules-commonjs")]
     };
 
-    return babel.transform(src, options).code;
+    return {
+      code: babel.transform(src, options).code,
+    };
   }
 };
